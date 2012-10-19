@@ -42,6 +42,13 @@
 - (void) increaseWidthBy:(CGFloat)offset{
     self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width+offset, self.frame.size.height);    
 }
+- (void) setHeightTo:(CGFloat)dimension{
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, dimension);
+}
+- (void) setWidthTo:(CGFloat)dimension{
+    self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, dimension, self.frame.size.height);
+}
+
 + (CGRect) makeZeroRect {
     return CGRectMake(0, 0, 0, 0);
 }

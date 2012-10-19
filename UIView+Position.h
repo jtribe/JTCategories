@@ -31,6 +31,8 @@
 - (void) setOriginTo:(CGPoint)point;
 - (void) increaseHeightBy:(CGFloat)offset;
 - (void) increaseWidthBy:(CGFloat)offset;
+- (void) setHeightTo:(CGFloat)dimension;
+- (void) setWidthTo:(CGFloat)dimension;
 + (CGRect) makeZeroRect;
 + (CGSize) sizeWithSize:(CGSize)size scale:(CGFloat)scale;
 + (NSString*) stringForRect:(CGRect)rect;
