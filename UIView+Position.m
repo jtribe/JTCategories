@@ -70,6 +70,19 @@
     [self moveCenterYTo:[UIScreen mainScreen].bounds.size.height/2];
 }
 
+- (void)centerOnSuperview {
+    [self centerYOnSuperview];
+    [self centerXOnSuperview];
+}
+
+- (void)centerYOnSuperview {
+    [self moveCenterYTo:(self.superview.bounds.size.height/2)];
+}
+
+- (void)centerXOnSuperview {
+    [self moveCenterXTo:self.superview.bounds.size.width/2];
+}
+
 - (void) rightAlign {
     [self moveRightBy:[UIScreen mainScreen].bounds.size.width - self.bounds.size.width];
 }

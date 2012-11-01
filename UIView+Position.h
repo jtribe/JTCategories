@@ -39,6 +39,9 @@
 + (CGFloat) screenWidth;
 + (CGFloat) screenHeight;
 - (void) centerOnScreen;
+- (void)centerOnSuperview;
+- (void)centerYOnSuperview;
+- (void)centerXOnSuperview;
 - (void) rightAlign;
 
 @end
