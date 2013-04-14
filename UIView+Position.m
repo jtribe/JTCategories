@@ -87,5 +87,9 @@
     [self moveRightBy:[UIScreen mainScreen].bounds.size.width - self.bounds.size.width];
 }
 
+- (void) topAlign {
+    [self setOriginTo:CGPointMake(0.0, 0.0)];
+}
+
 @end
 

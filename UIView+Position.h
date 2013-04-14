@@ -43,6 +43,7 @@
 - (void)centerYOnSuperview;
 - (void)centerXOnSuperview;
 - (void) rightAlign;
+- (void) topAlign;
 
 @end
 
