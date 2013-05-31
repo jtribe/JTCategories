@@ -29,5 +29,4 @@
 + (UIColor*) colorWithBlack:(CGFloat)black alpha:(CGFloat)alpha;
 + (UIColor *) valueBlueColor;
 + (UIColor *) colorFromHexString:(NSString *)hexString;
-
 @end

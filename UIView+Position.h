@@ -24,6 +24,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (Position)
+
 - (void) moveDownBy:(CGFloat)down;
 - (void) moveUpBy:(CGFloat)up;
 - (void) moveRightBy:(CGFloat)up;
@@ -53,6 +54,7 @@
 - (CGFloat) y;
 - (CGFloat) w;
 - (CGFloat) h;
+
 
 @end
 
